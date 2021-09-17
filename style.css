@@ -16,7 +16,7 @@ body {
     margin: auto;
     padding-right: 10px;
     /* padding-left: 10px; */
-    background-color: #82aac9;
+    background-color: #bad7ee;
 }
 
 .container2 {
@@ -90,7 +90,7 @@ img {
 /* content */
 .content {
     color: #1f2225;
-    width: 800px;
+    width: 880px;
     /* height: 600px; */
     /* background: blue; */
     float: right;
@@ -98,9 +98,9 @@ img {
 
 .blog-content {
     float: left;
-    max-width: 380px;
+    max-width: 400px;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 
@@ -123,7 +123,7 @@ img {
 /* bagian info */
 .blog-single {
     float: left;
-    max-width: 720px;
+    max-width: 900px;
     max-height: 400px;
     margin-right: 10px;
     margin-left: 10px;
@@ -132,13 +132,26 @@ img {
 
 .blog-single img {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-left: 70px;
     border-radius: 10px;
-    width: 100%;
+    width: 720px;
     height: 300px;
     object-fit: cover;
 }
 
 .clear {
     clear: both;
+}
+
+/* footer */
+footer {
+    width: 1190px;
+    height: 30px;
+    margin: auto;
+    background-color: #082032;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 12px;
 }
